@@ -1,0 +1,6946 @@
+{
+  "stats": {
+    "item": {
+      "total": 688,
+      "upgraded": 688
+    },
+    "block": {
+      "total": 302,
+      "upgraded": 302
+    }
+  },
+  "items": [
+    {
+      "name": "acetylene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "acrylic_acid_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "acrylic_glue_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "adult_filter.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "advanced_motor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "advanced_pump.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "advanced_upgrade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "air_intake.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_rotor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "analog_circuit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "analog_circuit_board.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "and_gate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "annealed_copper_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "antimony_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "antimony_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "antimony_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "antimony_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "argon_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "arithmetic_logic_unit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "artificial_dye.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "basic_upgrade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_large_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "battery_alloy_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bauxite_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bauxite_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bauxite_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "benzene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "biodiesel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "biofuel_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "blastproof_alloy_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "blastproof_alloy_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "blastproof_alloy_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "blastproof_alloy_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "boosted_diesel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "brick_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "brick_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_large_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "bronze_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_rotor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "butadiene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_battery.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_control_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cadmium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "capacitor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "caprolactam_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "carbon_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "carbon_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "carbon_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "carbon_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chlorine_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_hydrochloric_solution_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_large_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "chromium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "chromium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "coal_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "coal_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "coal_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "coke.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "coke_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "config_card.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "conveyor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "conveyor_background.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_blinking_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_bouncing_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_detection_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_dropping_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_extraction_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_insertion_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_overlay.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_splitting_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "cooling_cell.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_fine_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_large_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "copper_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_rotor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "copper_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "creosote_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "crude_oil_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cryofluid_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_wire_magnetic.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deuterium_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diamond_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diamond_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diamond_gear.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "diamond_hammer.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diamond_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diamond_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diamond_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diesel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diesel_chainsaw.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diesel_jetpack.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diesel_mining_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diethyl_ether_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "digital_circuit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "digital_circuit_board.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "diode.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "drill.png",
+      "base": "-",
+      "rework": "256x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "drillhead1.png",
+      "base": "-",
+      "rework": "512x2048",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "dual_mox.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "dust.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "dust_tiny.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "efficiency_addon_1.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "efficiency_addon_2.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "electronic_circuit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electronic_circuit_board.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_fine_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "electrum_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "emerald_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "emerald_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "emerald_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "emerald_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "energy_field_addon.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "essence_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ethanol_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ethylbenzene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ethylene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "fertilizer.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fire_clay_brick.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "fire_clay_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "fluid_addon_pull.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_addon_push.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "foil.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fortune_addon.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "gear.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "gold_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_gear.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_large_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "gold_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gold_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "gravichestplate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "guidebook.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "handle_mallet.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "he_mox_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_fuel_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_fuel_rod_depleted.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_fuel_rod_double.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_fuel_rod_quad.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_fuel_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_fuel_rod_depleted.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_fuel_rod_double.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_fuel_rod_quad.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "heavy_fuel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "heavy_water_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "heavy_water_steam_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "helium_3_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "helium_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "helium_plasma_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "high_pressure_heavy_water_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "high_pressure_heavy_water_steam_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "high_pressure_steam_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "high_pressure_water_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "highly_advanced_upgrade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "hydrochloric_acid_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "hydrogen_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "if_manual.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "inductor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "infinity_backpack.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_launcher.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_launcher_projectile.png",
+      "base": "-",
+      "rework": "256x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_nuke.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_sword.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_sword_bld.png",
+      "base": "-",
+      "rework": "256x3584",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_trident.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ingot.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ingot_double.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "invar_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_rotary_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "invar_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_gear.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_hammer.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "itemstack_addon_pull.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "itemstack_addon_push.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "kanthal_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lapis_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lapis_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lapis_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "lapis_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "large_advanced_motor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "large_advanced_pump.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "large_heat_exchanger.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "large_motor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "large_pump.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "laser_lens0.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens0_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens1.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens10.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens10_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens11.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens11_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens12.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens12_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens13.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens13_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens14.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens14_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens15.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens15_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens1_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens2.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens2_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens3.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens3_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens4.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens4_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens5.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens5_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens6.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens6_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens7.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens7_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens8.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens8_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens9.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_lens9_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "latex_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "le_mox_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_fuel_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_fuel_rod_depleted.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_fuel_rod_double.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_fuel_rod_quad.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_mox_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_fuel_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_fuel_rod_depleted.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_fuel_rod_double.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_fuel_rod_quad.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "leaf_shearing.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "light_fuel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lignite_coal.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lignite_coal_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lignite_coal_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lignite_coal_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "liquid_air_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lubricant_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "machine_hull.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "manganese_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "manganese_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "manganese_sulfuric_solution_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "manganese_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "meat_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "meat_feeder.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "memory_management_unit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "methane_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "mixed_ingot_blastproof.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "mixed_ingot_iridium.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "mixed_plate_nuclear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "mob_imprisonment_tool_color1.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_imprisonment_tool_color2.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_imprisonment_tool_dot.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_imprisonment_tool_overlay.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "molten_redstone_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "monazite_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "monazite_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "monazite_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "monocrystalline_silicon.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "motor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "mox.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "naphtha_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "neodymium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "neodymium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "netherite_hammer.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nitrogen_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "not_gate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nuclear_alloy_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nuclear_alloy_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nylon_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "op_amp.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "or_gate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "overdrive_module.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "oxygen_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "packer_block_template.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "packer_double_ingot_template.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "pink_slime.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "pink_slime_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "pink_slime_ingot.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "piston.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plant_oil_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plastic.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plastic_old.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plate.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "platinum_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_fine_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_sulfuric_solution_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plutonium_battery.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plutonium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plutonium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plutonium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plutonium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "polyethylene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "polyvinyl_chloride_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "portable_storage_unit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "processing_addon_1.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "processing_addon_2.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "processing_unit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "processing_unit_board.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "propene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "pump.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "purified_platinum_sulfuric_solution_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "qbit.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "quad_mox.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "quantum_boots.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_chestplate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_circuit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_circuit_board.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_helmet.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_leggings.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_sword.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_upgrade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quartz_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quartz_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quartz_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "qubit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "random_access_memory.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "range_addon0.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon1.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon10.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon11.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon2.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon3.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon4.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon5.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon6.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon7.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon8.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "range_addon9.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "raw_antimony.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_biodiesel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_iridium.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_lead.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_nickel.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_platinum.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_silver.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_synthetic_oil_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_tin.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_titanium.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_tungsten.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_uranium.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "redstone_battery.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "redstone_control_module_high.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "redstone_control_module_low.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "redstone_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "redstone_inverted.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "redstone_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "resistor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ring.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "robot_arm.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "rotor.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "rubber.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "rubber_boots.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "rubber_helmet.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "rubber_old.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "rubber_sheet.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ruby_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ruby_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "salt_crushed_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "salt_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "salt_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "saw_if.png",
+      "base": "-",
+      "rework": "256x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "saw_if2.png",
+      "base": "-",
+      "rework": "256x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sawhead_thing_test.png",
+      "base": "-",
+      "rework": "128x384",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sewage_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "shale_oil_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_battery.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_n_doped_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_p_doped_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silicon_wafer.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver.png",
+      "base": "-",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "silver_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "singularity.png",
+      "base": "16x128",
+      "rework": "64x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sludge_bucket.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "small_heat_exchanger.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sodium_battery.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sodium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sodium_hydroxide_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sodium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "soldering_alloy_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "soldering_alloy_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "soldering_alloy_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "speed_addon_1.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "speed_addon_2.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "stainless_steel_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_rod_magnetic.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_rotor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steam_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steam_cracked_heavy_fuel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steam_cracked_light_fuel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steam_cracked_naphtha_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steam_mining_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steam_mining_drill_handler.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_hammer.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_rod_magnetic.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_upgrade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stick.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "stick_long.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "straw.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "styrene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "styrene_butadiene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "styrene_butadiene_rubber_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sugar_solution_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfur_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfur_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfuric_acid_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfuric_crude_oil_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfuric_heavy_fuel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfuric_light_fuel_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfuric_naphtha_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "synthetic_oil_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "synthetic_rubber_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_large_plate.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "tin_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_rotor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_wire.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tiny_rubber.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "titanium_blade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_bolt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_curved_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_drill.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_drill_head.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_gear.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_hot_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_ring.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_rod.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_rotor.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "toluene_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tool_head_drill.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "transistor.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tritium_bucket.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_double_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_large_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_plate.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_rod.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "tungsten_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "turbine_blade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "turbo_upgrade.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ultradense_metal_ball.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uncooked_steel_dust.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_235_dust.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_235_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_235_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_235_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_238_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_238_ingot.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_238_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_238_tiny_dust.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_dust.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_fuel_rod.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_fuel_rod_depleted.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_fuel_rod_double.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_fuel_rod_quad.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_ingot.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_nugget.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_rod.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uu_matter_bucket.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "vinyl_chloride_bucket.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "wax.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "wire_fine.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "wire_fine_overlay.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "wood_pulp.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "wrench.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "yttrium_dust.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "yttrium_tiny_dust.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "advanced_black_hole_tank_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "advanced_black_hole_unit_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "advanced_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "advanced_machine_hull.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_barrel_side.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_barrel_top.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "aluminum_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "animal_growth_increaser_front.png",
+      "base": "-",
+      "rework": "128x896",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_independence_selector_back.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_independence_selector_front.png",
+      "base": "-",
+      "rework": "128x768",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_independence_selector_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_resource_harvester_back.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_resource_harvester_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_stock_increaser_back.png",
+      "base": "-",
+      "rework": "128x1024",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_stock_increaser_front.png",
+      "base": "-",
+      "rework": "128x768",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "animal_stock_increaser_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "annealed_copper_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "antimony_block.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "antimony_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "base_bottom.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "base_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "base_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "basic_machine_hull.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "battery_alloy_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bauxite_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bauxite_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "beryllium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "biofuel_generator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "biofuel_generator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "bioreactor_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "bioreactor_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_controller_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_tank_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_tank_side_overlay.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_unit_controller_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_unit_label.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_unit_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "black_hole_unit_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "blastproof_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "block_destroyer_back.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "block_destroyer_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "block_placer_back.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "block_placer_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "bronze_barrel_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_barrel_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_machine_casing_pipe.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_plated_bricks.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "bronze_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cap_bottom.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "cap_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "catears.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "chromium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "clean_stainless_steel_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "coke_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "common_black_hole_tank_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "common_black_hole_unit_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_black.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_blinking_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_bouncing_upgrade_east.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_bouncing_upgrade_north.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_bouncing_upgrade_south.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_bouncing_upgrade_west.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_color.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_color_fast.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_color_inverted.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_color_inverted_fast.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_detection_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "conveyor_dropping_upgrade.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "creative_barrel_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "creative_barrel_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "creative_storage_unit.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "creative_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "crop_recolector_back.png",
+      "base": "-",
+      "rework": "128x1152",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "crop_recolector_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "cupronickel_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_coil_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "cupronickel_coil_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "dark_glass.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "dark_glass_ctm.png",
+      "base": "-",
+      "rework": "256x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "deepslate_antimony_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_bauxite_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_iridium_ore.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "deepslate_lead_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_lignite_coal_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_monazite_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_nickel_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_salt_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_tin_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_tungsten_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "deepslate_uranium_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "dissolution_chamber_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "dye_mixer_front.png",
+      "base": "-",
+      "rework": "128x1280",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "dye_mixer_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "electrum_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "enchantment_aplicator_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_aplicator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_aplicator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_extractor_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_extractor_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_extractor_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_invoker_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_invoker_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_invoker_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "enchantment_refiner_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "energy_field_provider_side.png",
+      "base": "-",
+      "rework": "128x2560",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fire_clay_bricks.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "fluid_collector_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_collector_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_crafter_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_crafter_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_laser_base_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_placer_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_placer_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_pump_bottom.png",
+      "base": "-",
+      "rework": "128x1024",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluid_pump_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "fluiddictionary_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "forge_hammer.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "froster.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "frostproof_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "fusion_chamber.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "glass_mithril.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "hatch_placement_overlay.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_mox_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "he_uranium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "heatproof_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "highly_advanced_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "highly_advanced_machine_hull.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "hydrator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "hydroponic_bed_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "hydroponic_bed_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "infinity_charger_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "invar_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_machine_casing_pipe.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iridium_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_barrel_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_barrel_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "iron_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "item_splitter.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "itnt.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_coil_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "kanthal_coil_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "laser_base_bottom.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_base_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_base_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_drill_back.png",
+      "base": "-",
+      "rework": "128x2560",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_drill_bottom.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_drill_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "laser_drill_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "latex_processing_unit_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "lava_fabricator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "lava_fabricator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "le_mox_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "le_uranium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lead_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lignite_coal_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lignite_coal_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "lock.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "locked.png",
+      "base": "64x64",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "machine_bronze_plated_bricks.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "machine_casing_assembler.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "machine_casing_stable_titanium.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "machine_hull.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "material_stonework_front.png",
+      "base": "-",
+      "rework": "128x1024",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mechanical_dirt_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mechanical_dirt_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_detector_back.png",
+      "base": "-",
+      "rework": "128x896",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_detector_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_duplicator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_duplicator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_relocator_back.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_slaughter_factory_back.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mob_slaughter_factory_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "monazite_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "monazite_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "mycelial.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "mycelial_clean.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "neodymium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nickel_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nose.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "nuclear_alloy_machine_casing_pipe.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nuclear_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nuclear_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "nuke.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "ore_fermenter.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ore_platinum.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ore_processor_front.png",
+      "base": "-",
+      "rework": "128x2048",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ore_processor_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ore_sieve.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "ore_washer.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "oredictionary_converter_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "oredictionary_converter_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "petrified_fuel_generator_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "pitiful_fuel_generator_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "pity_black_hole_tank_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "pity_black_hole_unit_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plant_fertilizer_back.png",
+      "base": "-",
+      "rework": "128x768",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plant_fertilizer_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plant_interactor_front.png",
+      "base": "-",
+      "rework": "128x896",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plant_interactor_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plant_sower_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plant_sower_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "plasma_handling_iridium_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "platinum_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "plutonium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "potion_enervator_back.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "potion_enervator_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "potion_enervator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "protein_generator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "protein_generator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "proteinreactor_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "proteinreactor_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "quantum_barrel_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_barrel_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_machine_hull.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quantum_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "quartz_ore.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_aluminum_block.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "raw_antimony_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_iridium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_lead_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_nickel_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_osmium_block.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "raw_platinum_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_silver_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_tin_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_titanium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_tungsten_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "raw_uranium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "reactor_front_mycelial.png",
+      "base": "-",
+      "rework": "128x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "reactor_side_mycelial.png",
+      "base": "-",
+      "rework": "128x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "reactor_top_mycelial.png",
+      "base": "-",
+      "rework": "128x256",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "resourceful_furnace_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "salt_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "salt_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sewage_composter_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sewer_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sewer_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "silicon_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "silver_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "simple_black_hole_tank_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "simple_black_hole_unit_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sludge_refiner_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sludge_refiner_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "sodium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "soldering_alloy_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "solid_titanium_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "spores_recreator_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "spores_recreator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "stainless_steel_barrel_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_barrel_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_machine_casing_pipe.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stainless_steel_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "stasis_chamber_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "steel_barrel_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_barrel_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_machine_casing.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_machine_casing_pipe.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "steel_tank.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "sulfur_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_coil_side.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "superconductor_coil_top.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "supreme_black_hole_tank_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "supreme_black_hole_unit_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "tank_side_1_c.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "tin_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tin_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_barrel_side.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_barrel_top.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_machine_casing_pipe.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "titanium_tank.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "trash_can.png",
+      "base": "16x320",
+      "rework": "64x1280",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tree_fluid_extractor_back.png",
+      "base": "-",
+      "rework": "128x512",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "tungesten_block.png",
+      "base": "-",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "tungsten_block.png",
+      "base": "16x16",
+      "rework": "64x64",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "tungsten_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "turbo_machine_casing.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "turbo_machine_hull.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_235_block.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_238_block.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_block.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "uranium_ore.png",
+      "base": "16x16",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "generated"
+    },
+    {
+      "name": "villager_trade_exchanger_front.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "water_condensator_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "water_condensator_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "water_resources_collector_bottom.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "water_resources_collector_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "wither_builder_side.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "wither_builder_top.png",
+      "base": "-",
+      "rework": "128x128",
+      "status": "upgraded",
+      "method": "pack-only"
+    },
+    {
+      "name": "yttrium_block.png",
+      "base": "16x16",
+      "rework": "512x512",
+      "status": "upgraded",
+      "method": "generated"
+    }
+  ]
+}
