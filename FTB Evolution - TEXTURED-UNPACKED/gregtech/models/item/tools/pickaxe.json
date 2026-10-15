@@ -1,8 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "gregtech:items/tools/handle",
-    "layer1": "gregtech:items/tools/pickaxe",
-    "layer2": "gregtech:items/tools/pickaxe_base"
-  }
-}
