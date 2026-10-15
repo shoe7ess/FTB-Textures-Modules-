@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FTB Evolutions Sphax Texture Tracker</title>
+<style>
+:root{--bg:#1a1a2e;--card:#16213e;--accent:#0f3460;--text:#e0e0e0;--green:#00c853;--red:#ff5252;--yellow:#ffd740;--blue:#448aff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);padding:20px}
+h1{text-align:center;font-size:1.8em;margin-bottom:4px;color:#fff}
+.subtitle{text-align:center;color:#888;margin-bottom:20px;font-size:.9em}
+.summary{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
+.stat{background:var(--card);border-radius:10px;padding:16px 24px;text-align:center;min-width:140px}
+.stat .num{font-size:2em;font-weight:700}
+.stat .label{font-size:.8em;color:#aaa;margin-top:2px}
+.stat.total .num{color:var(--blue)}
+.stat.ok .num{color:var(--green)}
+.stat.cross .num{color:var(--yellow)}
+.stat.tmpl .num{color:#ce93d8}
+.bar-wrap{background:#333;border-radius:6px;height:28px;margin-bottom:24px;overflow:hidden;display:flex}
+.bar-seg{height:100%;display:flex;align-items:center;justify-content:center;font-size:.75em;font-weight:600;color:#000;white-space:nowrap;overflow:hidden}
+.mod-section{background:var(--card);border-radius:10px;margin-bottom:16px;overflow:hidden}
+.mod-header{padding:14px 18px;cursor:pointer;display:flex;align-items:center;gap:10px;user-select:none}
+.mod-header:hover{background:rgba(255,255,255,.03)}
+.mod-header .arrow{transition:transform .2s}
+.mod-header.open .arrow{transform:rotate(90deg)}
+.mod-name{font-size:1.1em;font-weight:600;flex:1}
+.mod-badge{background:var(--accent);padding:3px 10px;border-radius:12px;font-size:.8em}
+.mod-body{display:none;padding:0 18px 14px}
+.mod-body.open{display:block}
+table{width:100%;border-collapse:collapse;font-size:.85em}
+th{text-align:left;padding:8px 6px;border-bottom:2px solid #333;color:#aaa;font-weight:500}
+td{padding:6px;border-bottom:1px solid #222}
+.status{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+.s-cross{background:var(--yellow)}
+.s-iconset{background:var(--blue)}
+.s-3layer{background:var(--green)}
+.s-template{background:#ce93d8}
+.legend{display:flex;gap:16px;justify-content:center;margin-bottom:16px;flex-wrap:wrap;font-size:.85em}
+.legend span{display:flex;align-items:center;gap:4px}
+.filter-row{display:flex;gap:8px;justify-content:center;margin-bottom:16px;flex-wrap:wrap}
+.filter-btn{background:var(--card);border:1px solid #333;color:var(--text);padding:6px 14px;border-radius:6px;cursor:pointer;font-size:.85em}
+.filter-btn.active{border-color:var(--blue);background:rgba(68,138,255,.15)}
+</style>
+</head>
+<body>
+<h1>FTB Evolutions - Sphax 128x Texture Tracker</h1>
+<p class="subtitle">Last rebuilt: October 14, 2026 - v2 (3-layer compositing + cross-mod priority)</p>
+
+<div class="summary">
+<div class="stat total"><div class="num">208</div><div class="label">Total Textures</div></div>
+<div class="stat ok"><div class="num">208</div><div class="label">Upgraded (100%)</div></div>
+<div class="stat cross"><div class="num">28</div><div class="label">Cross-Mod Copies</div></div>
+<div class="stat tmpl"><div class="num">180</div><div class="label">Generated</div></div>
+</div>
+
+<div class="bar-wrap">
+<div class="bar-seg" style="width:13.5%;background:var(--yellow)" title="Cross-mod copies">Cross-mod (28)</div>
+<div class="bar-seg" style="width:8.2%;background:var(--blue)" title="GT Iconset">Iconset (17)</div>
+<div class="bar-seg" style="width:60.1%;background:var(--green)" title="3-layer composited ores">3-Layer (125)</div>
+<div class="bar-seg" style="width:18.2%;background:#ce93d8" title="HSV template recolor">Template (38)</div>
+</div>
+
+<div class="legend">
+<span><i class="status s-cross"></i> Cross-Mod Copy (existing texture pack)</span>
+<span><i class="status s-iconset"></i> GT Iconset (pre-colored)</span>
+<span><i class="status s-3layer"></i> 3-Layer Composited (stone+shadow+ore)</span>
+<span><i class="status s-template"></i> HSV Template Recolor</span>
+</div>
+
+<div class="filter-row">
+<button class="filter-btn active" onclick="filterAll()">All (208)</button>
+<button class="filter-btn" onclick="filterMethod('cross')">Cross-Mod (28)</button>
+<button class="filter-btn" onclick="filterMethod('iconset')">Iconset (17)</button>
+<button class="filter-btn" onclick="filterMethod('3layer')">3-Layer (125)</button>
+<button class="filter-btn" onclick="filterMethod('template')">Template (38)</button>
+</div>
+
+<div id="sections"></div>
+
+<script>
+var DATA = [{"file":"aluminum_block.png","method":"cross-mod-block","source":"block_aluminum.png","material":"aluminum","type":"block"},{"file":"aluminum_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"aluminum","type":"deepslate_ore"},{"file":"aluminum_end_ore.png","method":"3layer(metallic)+end_ore","material":"aluminum","type":"end_ore"},{"file":"aluminum_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"aluminum","type":"nether_ore"},{"file":"aluminum_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"aluminum","type":"raw_block"},{"file":"aluminum_stone_ore.png","method":"cross-mod-ore","source":"ore_aluminum.png","material":"aluminum","type":"stone_ore"},{"file":"antimony_block.png","method":"gt-iconset","source":"block_antimony.png","material":"antimony","type":"block"},{"file":"antimony_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"antimony","type":"deepslate_ore"},{"file":"antimony_end_ore.png","method":"3layer(metallic)+end_ore","material":"antimony","type":"end_ore"},{"file":"antimony_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"antimony","type":"nether_ore"},{"file":"antimony_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"antimony","type":"raw_block"},{"file":"apatite_block.png","method":"gt-template(ruby)+hsv","material":"apatite","type":"block"},{"file":"apatite_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"apatite","type":"deepslate_ore"},{"file":"apatite_end_ore.png","method":"3layer(ruby)+end_ore","material":"apatite","type":"end_ore"},{"file":"apatite_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"apatite","type":"nether_ore"},{"file":"apatite_stone_ore.png","method":"cross-mod-ore","source":"apatite.png","material":"apatite","type":"stone_ore"},{"file":"bauxite_block.png","method":"gt-template(rough)+hsv","material":"bauxite","type":"block"},{"file":"bauxite_deepslate_ore.png","method":"3layer(rough)+deepslate_ore","material":"bauxite","type":"deepslate_ore"},{"file":"bauxite_end_ore.png","method":"3layer(rough)+end_ore","material":"bauxite","type":"end_ore"},{"file":"bauxite_nether_ore.png","method":"3layer(rough)+nether_ore","material":"bauxite","type":"nether_ore"},{"file":"bauxite_ore.png","method":"3layer(rough)+ore","material":"bauxite","type":"ore"},{"file":"bauxite_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"bauxite","type":"raw_block"},{"file":"bauxite_stone_ore.png","method":"3layer(rough)+stone_ore","material":"bauxite","type":"stone_ore"},{"file":"brass_block.png","method":"gt-iconset","source":"block_brass.png","material":"brass","type":"block"},{"file":"bronze_block.png","method":"cross-mod-block","source":"bronze_block.png","material":"bronze","type":"block"},{"file":"charcoal_block.png","method":"cross-mod-block","source":"block_charcoal.png","material":"charcoal","type":"block"},{"file":"chromium_block.png","method":"gt-iconset","source":"block_chrome.png","material":"chromium","type":"block"},{"file":"cinnabar_block.png","method":"gt-template(ruby)+hsv","material":"cinnabar","type":"block"},{"file":"cinnabar_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"cinnabar","type":"deepslate_ore"},{"file":"cinnabar_end_ore.png","method":"3layer(ruby)+end_ore","material":"cinnabar","type":"end_ore"},{"file":"cinnabar_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"cinnabar","type":"nether_ore"},{"file":"cinnabar_stone_ore.png","method":"3layer(ruby)+stone_ore","material":"cinnabar","type":"stone_ore"},{"file":"coal_block.png","method":"gt-iconset","source":"block_charcoal.png","material":"coal","type":"block"},{"file":"coal_coke_block.png","method":"cross-mod-block","source":"block_coke.png","material":"coal_coke","type":"block"},{"file":"coal_deepslate_ore.png","method":"3layer(lignite)+deepslate_ore","material":"coal","type":"deepslate_ore"},{"file":"coal_end_ore.png","method":"3layer(lignite)+end_ore","material":"coal","type":"end_ore"},{"file":"coal_nether_ore.png","method":"3layer(lignite)+nether_ore","material":"coal","type":"nether_ore"},{"file":"constantan_block.png","method":"cross-mod-block","source":"block_constantan.png","material":"constantan","type":"block"},{"file":"copper_block.png","method":"cross-mod-block","source":"copper_block.png","material":"copper","type":"block"},{"file":"copper_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"copper","type":"deepslate_ore"},{"file":"copper_end_ore.png","method":"3layer(metallic)+end_ore","material":"copper","type":"end_ore"},{"file":"copper_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"copper","type":"nether_ore"},{"file":"copper_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"copper","type":"raw_block"},{"file":"diamond_block.png","method":"gt-template(diamond)+hsv","material":"diamond","type":"block"},{"file":"diamond_deepslate_ore.png","method":"3layer(diamond)+deepslate_ore","material":"diamond","type":"deepslate_ore"},{"file":"diamond_end_ore.png","method":"3layer(diamond)+end_ore","material":"diamond","type":"end_ore"},{"file":"diamond_nether_ore.png","method":"3layer(diamond)+nether_ore","material":"diamond","type":"nether_ore"},{"file":"dimensional_shard_block.png","method":"gt-template(ruby)+hsv","material":"dimensional_shard","type":"block"},{"file":"dimensional_shard_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"dimensional_shard","type":"deepslate_ore"},{"file":"dimensional_shard_end_ore.png","method":"3layer(ruby)+end_ore","material":"dimensional_shard","type":"end_ore"},{"file":"dimensional_shard_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"dimensional_shard","type":"nether_ore"},{"file":"dimensional_shard_stone_ore.png","method":"3layer(ruby)+stone_ore","material":"dimensional_shard","type":"stone_ore"},{"file":"electrum_block.png","method":"cross-mod-block","source":"block_electrum.png","material":"electrum","type":"block"},{"file":"emerald_block.png","method":"gt-template(emerald)+hsv","material":"emerald","type":"block"},{"file":"emerald_deepslate_ore.png","method":"3layer(emerald)+deepslate_ore","material":"emerald","type":"deepslate_ore"},{"file":"emerald_end_ore.png","method":"3layer(emerald)+end_ore","material":"emerald","type":"end_ore"},{"file":"emerald_nether_ore.png","method":"3layer(emerald)+nether_ore","material":"emerald","type":"nether_ore"},{"file":"fluorite_block.png","method":"gt-template(ruby)+hsv","material":"fluorite","type":"block"},{"file":"fluorite_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"fluorite","type":"deepslate_ore"},{"file":"fluorite_end_ore.png","method":"3layer(ruby)+end_ore","material":"fluorite","type":"end_ore"},{"file":"fluorite_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"fluorite","type":"nether_ore"},{"file":"fluorite_stone_ore.png","method":"3layer(ruby)+stone_ore","material":"fluorite","type":"stone_ore"},{"file":"gold_block.png","method":"gt-iconset","source":"block_gold.png","material":"gold","type":"block"},{"file":"gold_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"gold","type":"deepslate_ore"},{"file":"gold_end_ore.png","method":"3layer(metallic)+end_ore","material":"gold","type":"end_ore"},{"file":"gold_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"gold","type":"nether_ore"},{"file":"gold_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"gold","type":"raw_block"},{"file":"graphite_block.png","method":"gt-template(dull)+hsv","material":"graphite","type":"block"},{"file":"invar_block.png","method":"cross-mod-block","source":"block_invar.png","material":"invar","type":"block"},{"file":"iridium_block.png","method":"cross-mod-block","source":"block_iridium.png","material":"iridium","type":"block"},{"file":"iridium_deepslate_ore.png","method":"3layer(shiny)+deepslate_ore","material":"iridium","type":"deepslate_ore"},{"file":"iridium_end_ore.png","method":"3layer(shiny)+end_ore","material":"iridium","type":"end_ore"},{"file":"iridium_nether_ore.png","method":"3layer(shiny)+nether_ore","material":"iridium","type":"nether_ore"},{"file":"iridium_stone_ore.png","method":"cross-mod-ore","source":"ore_iridium.png","material":"iridium","type":"stone_ore"},{"file":"iron_block.png","method":"gt-iconset","source":"block_iron.png","material":"iron","type":"block"},{"file":"iron_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"iron","type":"deepslate_ore"},{"file":"iron_end_ore.png","method":"3layer(metallic)+end_ore","material":"iron","type":"end_ore"},{"file":"iron_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"iron","type":"nether_ore"},{"file":"iron_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"iron","type":"raw_block"},{"file":"lapis_lazuli_deepslate_ore.png","method":"3layer(lapis)+deepslate_ore","material":"lapis_lazuli","type":"deepslate_ore"},{"file":"lapis_lazuli_end_ore.png","method":"3layer(lapis)+end_ore","material":"lapis_lazuli","type":"end_ore"},{"file":"lapis_lazuli_nether_ore.png","method":"3layer(lapis)+nether_ore","material":"lapis_lazuli","type":"nether_ore"},{"file":"lead_block.png","method":"cross-mod-block","source":"lead_block.png","material":"lead","type":"block"},{"file":"lead_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"lead","type":"deepslate_ore"},{"file":"lead_end_ore.png","method":"3layer(metallic)+end_ore","material":"lead","type":"end_ore"},{"file":"lead_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"lead","type":"nether_ore"},{"file":"lead_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"lead","type":"raw_block"},{"file":"lead_stone_ore.png","method":"cross-mod-ore","source":"lead_ore.png","material":"lead","type":"stone_ore"},{"file":"lumium_block.png","method":"cross-mod-block","source":"block_lumium.png","material":"lumium","type":"block"},{"file":"monazite_block.png","method":"gt-template(rough)+hsv","material":"monazite","type":"block"},{"file":"monazite_deepslate_ore.png","method":"3layer(rough)+deepslate_ore","material":"monazite","type":"deepslate_ore"},{"file":"monazite_end_ore.png","method":"3layer(rough)+end_ore","material":"monazite","type":"end_ore"},{"file":"monazite_nether_ore.png","method":"3layer(rough)+nether_ore","material":"monazite","type":"nether_ore"},{"file":"monazite_ore.png","method":"3layer(rough)+ore","material":"monazite","type":"ore"},{"file":"monazite_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"monazite","type":"raw_block"},{"file":"monazite_stone_ore.png","method":"3layer(rough)+stone_ore","material":"monazite","type":"stone_ore"},{"file":"netherite_block.png","method":"gt-template(dull)+hsv","material":"netherite","type":"block"},{"file":"nickel_block.png","method":"cross-mod-block","source":"block_nickel.png","material":"nickel","type":"block"},{"file":"nickel_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"nickel","type":"deepslate_ore"},{"file":"nickel_end_ore.png","method":"3layer(metallic)+end_ore","material":"nickel","type":"end_ore"},{"file":"nickel_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"nickel","type":"nether_ore"},{"file":"nickel_ore.png","method":"cross-mod-ore","source":"ore_nickel.png","material":"nickel","type":"ore"},{"file":"nickel_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"nickel","type":"raw_block"},{"file":"nickel_stone_ore.png","method":"cross-mod-ore","source":"ore_nickel.png","material":"nickel","type":"stone_ore"},{"file":"niter_block.png","method":"gt-template(quartz)+hsv","material":"niter","type":"block"},{"file":"niter_deepslate_ore.png","method":"3layer(quartz)+deepslate_ore","material":"niter","type":"deepslate_ore"},{"file":"niter_end_ore.png","method":"3layer(quartz)+end_ore","material":"niter","type":"end_ore"},{"file":"niter_nether_ore.png","method":"3layer(quartz)+nether_ore","material":"niter","type":"nether_ore"},{"file":"niter_stone_ore.png","method":"3layer(quartz)+stone_ore","material":"niter","type":"stone_ore"},{"file":"obsidian_block.png","method":"gt-template(dull)+hsv","material":"obsidian","type":"block"},{"file":"osmium_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"osmium","type":"deepslate_ore"},{"file":"osmium_end_ore.png","method":"3layer(metallic)+end_ore","material":"osmium","type":"end_ore"},{"file":"osmium_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"osmium","type":"nether_ore"},{"file":"osmium_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"osmium","type":"raw_block"},{"file":"osmium_stone_ore.png","method":"cross-mod-ore","source":"osmiumore.png","material":"osmium","type":"stone_ore"},{"file":"platinum_block.png","method":"cross-mod-block","source":"block_platinum.png","material":"platinum","type":"block"},{"file":"platinum_deepslate_ore.png","method":"3layer(shiny)+deepslate_ore","material":"platinum","type":"deepslate_ore"},{"file":"platinum_end_ore.png","method":"3layer(shiny)+end_ore","material":"platinum","type":"end_ore"},{"file":"platinum_nether_ore.png","method":"3layer(shiny)+nether_ore","material":"platinum","type":"nether_ore"},{"file":"platinum_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"platinum","type":"raw_block"},{"file":"platinum_stone_ore.png","method":"cross-mod-ore","source":"ore_platinum.png","material":"platinum","type":"stone_ore"},{"file":"plutonium_block.png","method":"gt-iconset","source":"block_plutonium.png","material":"plutonium","type":"block"},{"file":"quartz_deepslate_ore.png","method":"3layer(quartz)+deepslate_ore","material":"quartz","type":"deepslate_ore"},{"file":"quartz_end_ore.png","method":"3layer(quartz)+end_ore","material":"quartz","type":"end_ore"},{"file":"quartz_nether_ore.png","method":"3layer(quartz)+nether_ore","material":"quartz","type":"nether_ore"},{"file":"quartz_ore.png","method":"3layer(quartz)+ore","material":"quartz","type":"ore"},{"file":"quartz_stone_ore.png","method":"3layer(quartz)+stone_ore","material":"quartz","type":"stone_ore"},{"file":"redstone_deepslate_ore.png","method":"3layer(fine)+deepslate_ore","material":"redstone","type":"deepslate_ore"},{"file":"redstone_end_ore.png","method":"3layer(fine)+end_ore","material":"redstone","type":"end_ore"},{"file":"redstone_nether_ore.png","method":"3layer(fine)+nether_ore","material":"redstone","type":"nether_ore"},{"file":"refined_glowstone_block.png","method":"gt-template(shiny)+hsv","material":"refined_glowstone","type":"block"},{"file":"refined_glowstone_deepslate_ore.png","method":"3layer(shiny)+deepslate_ore","material":"refined_glowstone","type":"deepslate_ore"},{"file":"refined_glowstone_end_ore.png","method":"3layer(shiny)+end_ore","material":"refined_glowstone","type":"end_ore"},{"file":"refined_glowstone_nether_ore.png","method":"3layer(shiny)+nether_ore","material":"refined_glowstone","type":"nether_ore"},{"file":"refined_glowstone_stone_ore.png","method":"3layer(shiny)+stone_ore","material":"refined_glowstone","type":"stone_ore"},{"file":"refined_obsidian_block.png","method":"gt-iconset","source":"block_obsidian.png","material":"refined_obsidian","type":"block"},{"file":"resonating_ore_block.png","method":"gt-template(ruby)+hsv","material":"resonating_ore","type":"block"},{"file":"resonating_ore_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"resonating_ore","type":"deepslate_ore"},{"file":"resonating_ore_end_ore.png","method":"3layer(ruby)+end_ore","material":"resonating_ore","type":"end_ore"},{"file":"resonating_ore_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"resonating_ore","type":"nether_ore"},{"file":"resonating_ore_stone_ore.png","method":"3layer(ruby)+stone_ore","material":"resonating_ore","type":"stone_ore"},{"file":"ruby_block.png","method":"gt-iconset","source":"block_ruby.png","material":"ruby","type":"block"},{"file":"ruby_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"ruby","type":"deepslate_ore"},{"file":"ruby_end_ore.png","method":"3layer(ruby)+end_ore","material":"ruby","type":"end_ore"},{"file":"ruby_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"ruby","type":"nether_ore"},{"file":"ruby_stone_ore.png","method":"3layer(ruby)+stone_ore","material":"ruby","type":"stone_ore"},{"file":"salt_block.png","method":"gt-template(quartz)+hsv","material":"salt","type":"block"},{"file":"salt_deepslate_ore.png","method":"3layer(quartz)+deepslate_ore","material":"salt","type":"deepslate_ore"},{"file":"salt_end_ore.png","method":"3layer(quartz)+end_ore","material":"salt","type":"end_ore"},{"file":"salt_stone_ore.png","method":"3layer(quartz)+stone_ore","material":"salt","type":"stone_ore"},{"file":"sapphire_block.png","method":"gt-iconset","source":"block_sapphire.png","material":"sapphire","type":"block"},{"file":"sapphire_deepslate_ore.png","method":"3layer(ruby)+deepslate_ore","material":"sapphire","type":"deepslate_ore"},{"file":"sapphire_end_ore.png","method":"3layer(ruby)+end_ore","material":"sapphire","type":"end_ore"},{"file":"sapphire_nether_ore.png","method":"3layer(ruby)+nether_ore","material":"sapphire","type":"nether_ore"},{"file":"sapphire_stone_ore.png","method":"3layer(ruby)+stone_ore","material":"sapphire","type":"stone_ore"},{"file":"silicon_block.png","method":"gt-iconset","source":"block_silicon.png","material":"silicon","type":"block"},{"file":"silver_block.png","method":"cross-mod-block","source":"silver_block.png","material":"silver","type":"block"},{"file":"silver_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"silver","type":"deepslate_ore"},{"file":"silver_end_ore.png","method":"3layer(metallic)+end_ore","material":"silver","type":"end_ore"},{"file":"silver_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"silver","type":"nether_ore"},{"file":"silver_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"silver","type":"raw_block"},{"file":"silver_stone_ore.png","method":"cross-mod-ore","source":"ore_silver.png","material":"silver","type":"stone_ore"},{"file":"stainless_steel_block.png","method":"gt-iconset","source":"block_stainlesssteel.png","material":"stainless_steel","type":"block"},{"file":"steel_block.png","method":"cross-mod-block","source":"steel_block.png","material":"steel","type":"block"},{"file":"sulfur_block.png","method":"gt-template(rough)+hsv","material":"sulfur","type":"block"},{"file":"sulfur_deepslate_ore.png","method":"3layer(rough)+deepslate_ore","material":"sulfur","type":"deepslate_ore"},{"file":"sulfur_end_ore.png","method":"3layer(rough)+end_ore","material":"sulfur","type":"end_ore"},{"file":"sulfur_nether_ore.png","method":"3layer(rough)+nether_ore","material":"sulfur","type":"nether_ore"},{"file":"sulfur_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"sulfur","type":"raw_block"},{"file":"sulfur_stone_ore.png","method":"3layer(rough)+stone_ore","material":"sulfur","type":"stone_ore"},{"file":"tin_block.png","method":"cross-mod-block","source":"tin_block.png","material":"tin","type":"block"},{"file":"tin_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"tin","type":"deepslate_ore"},{"file":"tin_end_ore.png","method":"3layer(metallic)+end_ore","material":"tin","type":"end_ore"},{"file":"tin_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"tin","type":"nether_ore"},{"file":"tin_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"tin","type":"raw_block"},{"file":"tin_stone_ore.png","method":"cross-mod-ore","source":"tin_ore.png","material":"tin","type":"stone_ore"},{"file":"titanium_block.png","method":"gt-iconset","source":"block_titanium.png","material":"titanium","type":"block"},{"file":"titanium_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"titanium","type":"deepslate_ore"},{"file":"titanium_end_ore.png","method":"3layer(metallic)+end_ore","material":"titanium","type":"end_ore"},{"file":"titanium_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"titanium","type":"nether_ore"},{"file":"titanium_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"titanium","type":"raw_block"},{"file":"tungsten_block.png","method":"gt-iconset","source":"block_tungsten.png","material":"tungsten","type":"block"},{"file":"tungsten_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"tungsten","type":"deepslate_ore"},{"file":"tungsten_end_ore.png","method":"3layer(metallic)+end_ore","material":"tungsten","type":"end_ore"},{"file":"tungsten_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"tungsten","type":"nether_ore"},{"file":"tungsten_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"tungsten","type":"raw_block"},{"file":"uranium_block.png","method":"gt-iconset","source":"block_uranium.png","material":"uranium","type":"block"},{"file":"uranium_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"uranium","type":"deepslate_ore"},{"file":"uranium_end_ore.png","method":"3layer(metallic)+end_ore","material":"uranium","type":"end_ore"},{"file":"uranium_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"uranium","type":"nether_ore"},{"file":"uranium_ore.png","method":"cross-mod-ore","source":"uranium_ore.png","material":"uranium","type":"ore"},{"file":"uranium_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"uranium","type":"raw_block"},{"file":"uranium_stone_ore.png","method":"cross-mod-ore","source":"uranium_ore.png","material":"uranium","type":"stone_ore"},{"file":"zinc_block.png","method":"gt-iconset","source":"block_zinc.png","material":"zinc","type":"block"},{"file":"zinc_deepslate_ore.png","method":"3layer(metallic)+deepslate_ore","material":"zinc","type":"deepslate_ore"},{"file":"zinc_end_ore.png","method":"3layer(metallic)+end_ore","material":"zinc","type":"end_ore"},{"file":"zinc_nether_ore.png","method":"3layer(metallic)+nether_ore","material":"zinc","type":"nether_ore"},{"file":"zinc_raw_block.png","method":"gt-template(rough)+hsv(raw)","material":"zinc","type":"raw_block"}];
+
+var currentFilter = 'all';
+function getMethodClass(m){
+  if(m.includes('cross-mod')) return 'cross';
+  if(m.includes('iconset')) return 'iconset';
+  if(m.includes('3layer')) return '3layer';
+  return 'template';
+}
+function getStatusClass(m){
+  if(m.includes('cross-mod')) return 's-cross';
+  if(m.includes('iconset')) return 's-iconset';
+  if(m.includes('3layer')) return 's-3layer';
+  return 's-template';
+}
+function getMethodLabel(m){
+  if(m.includes('cross-mod')) return 'Cross-Mod Copy';
+  if(m.includes('iconset')) return 'GT Iconset';
+  if(m.includes('3layer')) return '3-Layer Composite';
+  return 'HSV Template';
+}
+
+function render(){
+  var groups = {};
+  DATA.forEach(function(d){
+    if(currentFilter !== 'all' && getMethodClass(d.method) !== currentFilter) return;
+    if(!groups[d.material]) groups[d.material] = [];
+    groups[d.material].push(d);
+  });
+  var html = '';
+  Object.keys(groups).sort().forEach(function(mat){
+    var items = groups[mat];
+    html += '<div class="mod-section"><div class="mod-header" onclick="toggle(this)">' +
+      '<span class="arrow">&#9654;</span>' +
+      '<span class="mod-name">' + mat.replace(/_/g,' ').replace(/\b\w/g,function(l){return l.toUpperCase()}) + '</span>' +
+      '<span class="mod-badge">' + items.length + ' textures</span></div>' +
+      '<div class="mod-body"><table><tr><th>File</th><th>Type</th><th>Method</th><th>Source</th></tr>';
+    items.forEach(function(d){
+      html += '<tr><td>' + d.file + '</td><td>' + (d.type||'') + '</td>' +
+        '<td><i class="status ' + getStatusClass(d.method) + '"></i>' + getMethodLabel(d.method) + '</td>' +
+        '<td>' + (d.source||'-') + '</td></tr>';
+    });
+    html += '</table></div></div>';
+  });
+  document.getElementById('sections').innerHTML = html;
+}
+function toggle(el){
+  el.classList.toggle('open');
+  el.nextElementSibling.classList.toggle('open');
+}
+function filterAll(){
+  currentFilter='all'; updateBtns(); render();
+}
+function filterMethod(m){
+  currentFilter=m; updateBtns(); render();
+}
+function updateBtns(){
+  document.querySelectorAll('.filter-btn').forEach(function(b,i){
+    b.classList.toggle('active', (i===0&&currentFilter==='all') || b.textContent.toLowerCase().includes(currentFilter));
+  });
+}
+render();
+</script>
+</body>
+</html>
